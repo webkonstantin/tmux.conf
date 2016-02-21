@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git submodule update --init
+ln -s ~/.tmux/tmux.conf ~/.tmux.conf
