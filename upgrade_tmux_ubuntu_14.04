@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Upgrade tmux on ubuntu 14.04
+# From http://stackoverflow.com/a/25952511
+
+apt-get update
+apt-get install -y python-software-properties software-properties-common
+add-apt-repository -y ppa:pi-rho/dev
+apt-get update
+apt-get install -y tmux=2.0-1~ppa1~t
+tmux -V
