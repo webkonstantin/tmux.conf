@@ -1,3 +1,4 @@
 plugins/*
 !tpm
 /tmux-client-*
+/resurrect
